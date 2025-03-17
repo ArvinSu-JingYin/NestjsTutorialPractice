@@ -9,6 +9,7 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  
   //@Get means use get method in restful api, there are other method: post, put ...etc, the string 'getCurrentTime' is the path
   @Get('getCurrentTime') 
   getCurrentTime(): string {
