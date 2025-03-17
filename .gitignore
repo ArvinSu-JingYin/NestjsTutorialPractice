@@ -29,9 +29,9 @@ yarn-error.log*
 Thumbs.db
 
 # Project specific
-/my-nestjs-project/node_modules
-/my-nestjs-project/dist
-/my-nestjs-project/.env
-/my-nestjs-project/.env.*
-/my-nestjs-project/logs
-/my-nestjs-project/*.log
+# /my-nestjs-project/node_modules
+# /my-nestjs-project/dist
+# /my-nestjs-project/.env
+# /my-nestjs-project/.env.*
+# /my-nestjs-project/logs
+# /my-nestjs-project/*.log
