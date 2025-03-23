@@ -4,10 +4,11 @@ import { AppService } from './app.service';
 import { typeOrmConfig } from './app/base/typeorm/typeorm.config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PokemonService } from './pokemon/pokemon.service';
+import { PokemonController } from './pokemon/pokemon.controller';
 
 @Module({
   imports: [TypeOrmModule.forRoot(typeOrmConfig),],
-  controllers: [AppController],
+  controllers: [AppController, PokemonController],
   providers: [AppService, PokemonService],
 })
 export class AppModule {}
